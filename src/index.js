@@ -8,8 +8,8 @@ import QuickStart from "components/QuickStart";
 
 /** Get your free Moralis Account https://moralis.io/ */
 
-const APP_ID = process.env.REACT_APP_MORALIS_APPLICATION_ID;
-const SERVER_URL = process.env.REACT_APP_MORALIS_SERVER_URL;
+const APP_ID = 'mpRWzE0dNId9MNbr0SGpZzbZcwzZ9kqRthxSANOQ';
+const SERVER_URL = 'https://ixtc0yhkkgzp.usemoralis.com:2053/server';
 
 const Application = () => {
   const isServerInfo = APP_ID && SERVER_URL ? true : false;
